@@ -1,0 +1,35 @@
+body {
+  color: theme-color-level(dark, -2);
+}
+.active a{
+  border-bottom: solid 0.25em orange 
+}
+.form-group {
+  position: relative;
+}
+.form-group input[type=text] {
+  padding-left: 2.5rem
+}
+.form-group .icon-right {
+  position: absolute;
+  right: 10px;
+  padding: 10px;
+}
+.form-group .icon-left {
+  position: absolute;
+  left: 5px;
+  padding: 10px;
+}
+
+.border-left-vive {
+  border-left: solid 0.25rem $vive;
+}
+.fas {
+  color: theme-color-level(secondary, -5);
+}
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+
